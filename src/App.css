@@ -1,0 +1,168 @@
+@fontface {
+  font-family: 'PNR', regular;
+  src: local('pnr'), url(./pnr.otf) format('otf');
+}
+
+@fontface {
+  font-family: 'PNSB';
+  src: url('./Proxima Nova Semibold.otf')
+}
+
+h1, h2 {
+  font-family: 'PNR', regular;
+}
+
+.main {
+  margin: 2% 10%;
+}
+
+body {
+  background-color: #faf7fa;
+  height: 100%;
+}
+
+.divider{
+    position:absolute;
+    left:50%;
+    top:10%;
+    bottom:10%;
+    border-left:1px solid white;
+}
+
+.container {
+  display: table;
+  max-width: 100%;
+  margin: 2% 12%;
+  position: absolute;
+}
+
+.left, .right{
+  display: table-cell;
+}
+
+.filters {
+  display: block;
+  overflow: auto;
+}
+
+
+.header {
+  height: 100px;
+  color: #FFF;
+}
+
+.row {
+  display: flex;
+}
+
+.col {
+  background-color: #674EA7;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.rest {
+  background-color: #faf7fa;
+  flex-grow: 1;
+}
+
+.inputSku {
+  color: #FFF;
+  width: 80%;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  border-bottom: 1px solid white;
+}
+
+.listItems {
+  background-color: #FFF;
+}
+
+.item {
+  background-color: #FFF;
+  width: 500px;
+}
+
+#rcorners1 {
+  border-radius: 4px;
+  width: 85px;
+  height: 44px;
+  background: #ffffff;
+  color: #33363d;
+  white-space: normal;
+  margin: 0 1%; 
+  float: none;
+  vertical-align: middle;
+}
+
+.active {
+  border-top-color: rgb(199, 204, 210);
+  border-top-style: solid;
+  border-top-width: 0.5px;
+  border-right-color: rgb(199, 204, 210);
+  border-right-style: solid;
+  border-right-width: 0.5px;
+  border-left-color: rgb(199, 204, 210);
+  border-left-style: solid;
+  border-left-width: 0.5px;
+  border-image-source: initial;
+  border-image-slice: initial;
+  border-image-width: initial;
+  border-image-outset: initial;
+  border-image-repeat: initial;
+  border-bottom: 3px solid #ab4cc4;
+  color: #ab4cc4;
+}
+
+.itemImage img{
+  width: 50px;
+  height: auto;
+}
+
+.itemImage {
+  background-color: #FFF;
+  width: 50px;
+  height: 50px;
+ overflow: hidden;
+
+}
+
+.FiltersGroup {
+  white-space: nowrap;
+  width: 500px;
+  vertical-align: middle;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.check img{
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  right: 0;
+}
+
+.check {
+  position: relative;
+  width: 24px;
+  height: auto;
+}
+
+.itemText {
+  white-space: nowrap;
+}
+
+.button {
+  border-radius: 4px;
+  border-color: #4DC498;
+  width: 180px;
+  height: 47px;
+  background: #4DC498;
+  color: #ffffff;
+  white-space: normal;
+  margin: 0 9%; 
+  float: none;
+  vertical-align: middle;
+}
